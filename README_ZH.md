@@ -1,7 +1,7 @@
 # roberta-crf
 
 [English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
-[简体中文]([English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
+[简体中文](https://github.com/cedar33/roberta-crf/blob/master/README.md)
 
 在roberta上添加crf层做文本标注任务
 
