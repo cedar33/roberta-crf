@@ -1,4 +1,7 @@
 # roberta-crf
+
+[English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
+
 在roberta上添加crf层做文本标注任务
 
  本项目的主要目的是在保持roberta原本结构和代码逻辑的前提下，借用fairseq给roberta添加crf层，在使用本代码前你需要克隆 [fairseq](https://github.com/pytorch/fairseq).
