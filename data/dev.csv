@@ -1,0 +1,20 @@
+Sentence: 45759,Senators,NNP,O
+,rejected,VBD,O
+,Reid,NNP,B-per
+,'s,POS,O
+,effort,NN,O
+,earlier,RBR,O
+,this,DT,O
+,week,NN,O
+,to,TO,O
+,limit,VB,O
+,negotiations,NNS,O
+,and,CC,O
+,schedule,VB,O
+,a,DT,O
+,final,JJ,O
+,vote,NN,O
+,on,IN,O
+,the,DT,O
+,bill,NN,O
+,.,.,O
