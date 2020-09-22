@@ -4,7 +4,7 @@ fairseq-preprocess \
     --validpref "./dev.text.txt.bpe" \
     --destdir "./input0" \
     --workers 60 \
-    --srcdict "/home/stark/workdir/language_model/roberta.large/dict.txt"
+    --srcdict "/path/to/roberta.large/dict.txt"
 
 fairseq-preprocess \
     --only-source \
