@@ -5,9 +5,10 @@ The main purpose of this repository is trying to modify the roberta's source cod
 
 1. clone [fairseq](https://github.com/pytorch/fairseq).
 2. replace `fairseq/fairseq/models/roberta/model.py`, `fairseq/fairseq/models/roberta/hub_interface.py`, `fairseq/fairseq/trainer.py`, do not worry about the changes may influence other tasks, the differences will be shown below.
-3. run `kaggel_ner_encoder.py` to encode ner data
-4. run `pre_process.sh` to make traning and vilidating file
-5. run `train.sh` to finetuning roberta
+3. move files in folder tasks and criterions into `fairseq/fairseq/tasks` and `fairseq/fairseq/criterions`
+4. run `kaggel_ner_encoder.py` to encode ner data
+5. run `pre_process.sh` to make traning and vilidating file
+6. run `train.sh` to finetuning roberta
 
 click [here](https://www.kaggle.com/abhinavwalia95/entity-annotated-corpus) to download kaggle ner data
 
