@@ -18,7 +18,7 @@ with open("dev.csv", "r", encoding="utf-8") as f:
         else:
             word = ","
             label = line[-1]
-        ids = encoder.encode(word)
+        ids = encoder.encode(word)  # in ner task, capitalized word are more likely to be predicted as ner word, so use encoder.encode(word.lower()) may help you in real world, although the accuracy may be lower
         for idx, _id in enumerate(ids):
             if label.startswith("B") and idx != 0:
                 label = "I"+label[1:]
