@@ -4,7 +4,7 @@ LR=1e-05                # Peak LR for polynomial LR scheduler.
 HEAD_NAME=kaggle_ner     # Custom name for the classification head.
 NUM_CLASSES=17           # Number of classes for the classification task.
 MAX_SENTENCES=32         # Batch size.
-ROBERTA_PATH=/home/stark/workdir/language_model/roberta.base/model.pt
+ROBERTA_PATH=/path/to/roberta.base/model.pt
 
 CUDA_VISIBLE_DEVICES=2 fairseq-train ./ \
     --restore-file $ROBERTA_PATH \
