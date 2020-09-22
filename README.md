@@ -1,7 +1,7 @@
 # roberta-crf
 
 [English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
-[简体中文]([English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
+[简体中文](https://github.com/cedar33/roberta-crf/blob/master/README.md)
 
 a graceful method to apply crf into reberta model for sentence labeling task
 
