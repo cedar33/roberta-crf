@@ -1,5 +1,5 @@
 from fairseq.data.encoders.gpt2_bpe import get_encoder
-encoder = get_encoder("/home/stark/workdir/language_model/roberta.large/encoder.json", "/home/stark/workdir/language_model/roberta.large/vocab.bpe")
+encoder = get_encoder("/path/to/roberta.base/encoder.json", "/path/to/roberta.base/vocab.bpe")
 train_data = []
 with open("dev.csv", "r", encoding="utf-8") as f:
     lines = f.readlines()
@@ -29,7 +29,7 @@ with open("dev.text.txt.bpe", "w", encoding="utf-8") as ft, \
     for idx, t in enumerate(train_data):
         if idx % 10000 == 0:
             print(idx)
-        text = [_t[0].lower() for _t in t]
+        text = [_t[0] for _t in t]
         label = [_t[1] for _t in t]
         assert len(text) == len(label)
         ft.write(" ".join(text)+"\n")
