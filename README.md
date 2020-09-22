@@ -1,4 +1,8 @@
 # roberta-crf
+
+[English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
+[简体中文]([English](https://github.com/cedar33/roberta-crf/blob/master/README.md)
+
 a graceful method to apply crf into reberta model for sentence labeling task
 
 The main purpose of this repository is trying to modify the roberta's source code as less as possible to apply crf into roberta model.Before running this code, you are supposed to clone [fairseq](https://github.com/pytorch/fairseq).
